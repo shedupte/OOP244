@@ -18,5 +18,13 @@
     <ClCompile Include="w4_at_home.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Passenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Passenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
