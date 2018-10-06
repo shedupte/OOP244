@@ -47,11 +47,6 @@ namespace sict
 			pass_Name[MAX - 1] = '\0';
 			strncpy(dest, Destination, MAX);
 
-
-			/*dept_Day = 01;
-			dept_Mon = 10;
-			dept_Yr = 2018;*/
-
 			*this = Passenger(pass_Name, dest, 2018, 10, 01);
 			
 
@@ -83,7 +78,14 @@ namespace sict
 	{
 		if (!isEmpty())
 		{
-			cout << this->pass_Name << " - " << this->dest << " on " << this->dept_Yr << "/"<< this->dept_Mon<< "/" << this->dept_Day << endl;
+			if (dept_Day > 0 && dept_Day < 10)
+			{
+				cout << this->pass_Name << " - " << this->dest << " on " << this->dept_Yr << "/" << this->dept_Mon << "/0" << this->dept_Day << endl;
+			}
+			else
+			{
+				cout << this->pass_Name << " - " << this->dest << " on " << this->dept_Yr << "/" << this->dept_Mon << "/" << this->dept_Day << endl;
+			}
 		}
 		else
 		{
