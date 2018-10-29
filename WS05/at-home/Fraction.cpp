@@ -69,11 +69,11 @@ namespace sict {
 	void Fraction::display() const
 	{
 		if (!isEmpty() && denom != 1)
-			cout << num << "/" << denom;// << endl;
+			cout << num << "/" << denom << endl;
 		else if (!isEmpty() && denom == 1)
-			cout << num;// << endl;
+			cout << num << endl;
 		else
-			cout << "no fraction stored";// << endl;
+			cout << "no fraction stored" << endl;
 	}
 
 	Fraction Fraction::operator+(const Fraction & rhs) const
