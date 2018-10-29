@@ -1,0 +1,24 @@
+Reflection Week 3 
+
+1. The number of elements for c-style character string is name length and plus 1. The plus one is for the null terminator, which marks the end of the string.
+
+2. In c++ the overloading feature allows for two different funcntions to have the same name. In this case two member functions have the same name set, but the complier identifies the correct function by the parameters that are passed.
+
+3. In this lab we have learned to define class type and have private data within that class. Also we learned how to access private data using member functions. We have learned how to impliment an instance of an class known as an object.
+
+
+
+
+Quiz 2 Reflection
+
+1. The advantage of dynamic memory allocation is that it allocates memory when it is required, therefore not wasting memory.
+
+3. Allocate and Deallocate memory
+
+char* x = nullptr;
+
+x= new char[7];
+strcpy(x,"OOP244");
+
+delete[]x;
+x=nullptr; 

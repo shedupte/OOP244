@@ -1,0 +1,22 @@
+Reflect 
+Create a file reflect.txt that contains the answers to the following questions:
+1)	What is a safe empty state? Could you define a safe empty state that differs from the empty state that you defined?
+A safe empty state ensures that an object instance variable is initialized into a well-defined state where is does not contain user defined values.
+
+2)	Identify the parts of your source code where to minimized code duplication.
+By using the consturctors to intialize the object instance into a safe empty state. By refering back to the constructors, you can cut out repeating code for the initialization process. 
+
+3)	The canTravelWith(...) member function accesses the private data of the object referenced in its parameter. Explain why C++ allows this access.
+This is allowed as the parameter that is passed into the function is the object reference. By passing addresses of the object you allow that function to access the private data members.
+
+4)	What statement did you add to ensure that the strncpy(...) function exe-cutes correctly? 
+You need to add "#include <cstring>" as it allows you to access the string library for C++ other wise the function does not work.
+
+5)	Explain what you have learned in this workshop.
+We have learned how to create constructors that initialize object.
+Also we learned how to set a object into a safe empty state by using default constructors.
+
+
+Quiz 3 Reflection
+
+2. The Object is an instance of a class, where as the Class is more of a template.
