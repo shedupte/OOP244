@@ -142,11 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Fraction.cpp" />
-    <ClCompile Include="w5_in_lab.cpp" />
+    <ClCompile Include="Contact.cpp" />
+    <ClCompile Include="w6_in_lab.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fraction.h" />
+    <ClInclude Include="Contact.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
