@@ -1,0 +1,28 @@
+Tenzin Shedup
+Student# 120664180
+
+
+Reflection Week 6 
+
+1. If the source and current object share the same address, then that can pose some errors, specifically when we 
+   deallocate the current object, it would also deaalocate all the data in the source as well. By checking for self-assignment
+   we ensure that we do not lose the source data, when using the copy assignment operator.
+
+2. By using the Copy assignment operator multiple times, we increased the size of the phonenumber array as we added each new number.
+   This allowed us to avoid writing and rewriting phone number array over and over again.
+
+3. We learned how to define a copy constructor and copy assigment operator.
+   Also how to define a destructor
+
+
+
+Quiz 5 Reflection 
+
+1) Helper function gives support to a class without being included in the class definition. The Helper funciton accesses the object through parameters.
+
+2) Before an object goes out of scope the system will call a special member function to deallocate memeory.
+
+3) 3.2.3.1.$$$C++,707
+   $$$xyz,10
+   ~xyz: C++
+   ~xyz: xyz   
