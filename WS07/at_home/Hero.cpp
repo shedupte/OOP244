@@ -1,15 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "Hero.h"
 #include <string>
+#include <cstring>
 #include <iostream>
 
 namespace sict
 {
 	Hero::Hero()
 	{
-		char m_Name = '\0';
-		int m_Health = 0;
-		int m_Attack_Strength = 0;
+		m_Name[0] = '\0';
+		m_Health = 0;
+		m_Attack_Strength = 0;
 	}
 
 	Hero::Hero(const char* name, int health, int attack_Strength)
@@ -73,7 +74,6 @@ namespace sict
 	const Hero & operator*(const Hero & first, const Hero & second)
 	{
 
-		const Hero* temp;
 		Hero temp1 = first;
 		Hero temp2= second;
 
